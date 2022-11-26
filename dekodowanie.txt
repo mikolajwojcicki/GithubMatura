@@ -1,0 +1,26 @@
+A < C
+B < V
+C < P
+D < N
+E < K
+F < W
+G < I
+H < D
+I < G
+J < Z
+K < B
+L < A
+M < H
+N < T
+O < M
+P < L
+Q < 
+R < U
+S < O
+T < J
+U < E
+V < 
+W < F
+X < 
+Y < R
+Z < Y
