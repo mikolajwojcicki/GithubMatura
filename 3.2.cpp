@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E32
 #include <iostream>
 #include <fstream>
 #include <list>
 
 using namespace std;
 
-int main()
+void zadania::e32()
 {
     fstream dane;
     dane.open("dane3.txt");
@@ -37,3 +39,4 @@ int main()
     }
     cout << m_war << " " << m_d;
 }
+#endif

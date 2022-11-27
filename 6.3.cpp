@@ -1,3 +1,5 @@
+#include "config.h"
+#ifdef E63
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -5,7 +7,7 @@
 
 using namespace std;
 
-int main()
+void zadania::e63()
 {
 	ifstream dane("dane6.txt");
 	ofstream output("zadanie6_3.txt");
@@ -36,3 +38,4 @@ int main()
 	};
 	cout << palin;
 }
+#endif

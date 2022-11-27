@@ -1,9 +1,11 @@
+#include "config.h"
+#ifdef E13
 #include <iostream>
 #include <fstream>
 
 using namespace std;
 
-int main()
+void zadania::e13()
 {
     fstream dane;
     dane.open("dane1_3.txt");
@@ -31,3 +33,4 @@ int main()
     dane.close();
     cout << suma;
 }
+#endif

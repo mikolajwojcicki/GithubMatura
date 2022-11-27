@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E71
 #include <iostream>
 #include <fstream>
 #include <vector>
 
 using namespace std;
 
-int main()
+void zadania::e71()
 {
 	ifstream dane("szyfrogram.txt");
 	ofstream output("zadanie7_1.txt");
@@ -25,3 +27,4 @@ int main()
 		cout << temp2 << " " << tempting[i] << endl;
 	}
 }
+#endif

@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E6
 #include <iostream>
 #include <fstream>
 #include <string>
 
 using namespace std;
 
-int main()
+void zadania::e6()
 {
 	ifstream dane;
 	dane.open("dane6.txt");
@@ -41,3 +43,4 @@ int main()
 		cout << p << ":" << wynik[p] << endl;
 	};
 }
+#endif

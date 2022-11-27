@@ -1,3 +1,5 @@
+#include "config.h"
+#ifdef E715
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -5,7 +7,7 @@
 
 using namespace std;
 
-int main()
+void zadania::e715()
 {
 	ifstream dane("szyfrogram.txt");
 	ifstream dane2("czestosc.txt");
@@ -38,3 +40,4 @@ int main()
 		}
 	}
 }
+#endif

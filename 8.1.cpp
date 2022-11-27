@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E81
 #include <iostream>
 #include <fstream>
 #include <vector>
 
 using namespace std;
 
-int main()
+void zadania::e81()
 {
 	ifstream dane("dane8.txt");
 	int t, p, n;
@@ -26,3 +28,4 @@ int main()
 	cout << "Parzystych: " << p << endl;
 	cout << "Nieparzystych: " << n << endl;
 }
+#endif

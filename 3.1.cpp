@@ -1,9 +1,11 @@
+#include "config.h"
+#ifdef E31
 #include <iostream>
 #include <fstream>
 
 using namespace std;
 
-int main()
+void zadania::e31()
 {
     fstream dane;
     dane.open("dane3.txt");
@@ -25,3 +27,4 @@ int main()
     }
     cout << n_d << " " << n2_d;
 }
+#endif

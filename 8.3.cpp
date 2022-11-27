@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E83
 #include <iostream>
 #include <fstream>
 #include <vector>
 
 using namespace std;
 
-int main()
+void zadania::e83()
 {
 	ifstream dane("dane8.txt");
 	vector<int> dane_;
@@ -29,3 +31,4 @@ int main()
 	};
 	cout << max_length;
 }
+#endif

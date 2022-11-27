@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E40
 #include <iostream>
 #include <fstream>
 #include <vector>
 
 using namespace std;
 
-int main()
+void zadania::e40()
 {
 	ifstream dane;
 	dane.open("dane4.txt");
@@ -30,3 +32,4 @@ int main()
 	};
 	cout << i_max+1;
 }
+#endif

@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E82
 #include <iostream>
 #include <fstream>
 #include <vector>
 
 using namespace std;
 
-int main()
+void zadania::e82()
 {
 	ifstream dane("dane8.txt");
 	vector<int> dane_;
@@ -22,3 +24,4 @@ int main()
 	};
 	cout << nieup;
 }
+#endif

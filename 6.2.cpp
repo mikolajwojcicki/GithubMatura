@@ -1,3 +1,5 @@
+#include "config.h"
+#ifdef E62
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -5,7 +7,7 @@
 
 using namespace std;
 
-int main()
+void zadania::e62()
 {
 	ifstream dane("dane6.txt");
 	ofstream output("wynik6.2.txt");
@@ -60,3 +62,4 @@ int main()
 		output << i + 2 << ":" << temp_string_max << endl;
 	}
 };
+#endif

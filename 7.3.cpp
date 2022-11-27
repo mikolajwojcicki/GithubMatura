@@ -1,10 +1,12 @@
+#include "config.h"
+#ifdef E73
 #include <iostream>
 #include <fstream>
 #include <vector>
 
 using namespace std;
 
-int main()
+void zadania::e73()
 {
 	ifstream dane("szyfrogram.txt");
 	ifstream dane2("klucz.txt");
@@ -26,3 +28,4 @@ int main()
 	}
 
 }
+#endif
