@@ -12,7 +12,7 @@
 //#define E73
 //#define E81
 //#define E82
-#define E83
+//#define E83
 
 class zadania
 {
